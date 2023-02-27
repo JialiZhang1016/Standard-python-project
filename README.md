@@ -1,4 +1,4 @@
-## Standard-py-proj
+## Standard-python-project
 
 The purpose of the repository is to improve the existing structure of the project with the intention of enhancing its maintainability, reusability, collaboration, documentation, and testing capabilities.
 

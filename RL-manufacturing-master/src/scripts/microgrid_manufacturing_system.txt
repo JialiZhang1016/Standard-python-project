@@ -1,0 +1,4479 @@
+
+*********************** RUN THE MICROGRID-MANUFACTURING SYSTEM AT 100 STEPS ***********************
+*********************Time Step 0 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 2
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 2
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 2
+
+
+Machine 4 = Opr , action= K
+ Energy Consumption= 0.1705
+Buffer 4 = 2
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0, 0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 0
+ wind speed= 0
+ Microgrid Energy Consumption= 0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= -0.996106
+
+
+*********************Time Step 1 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 2
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 2
+
+
+Machine 3 = Brk , action= K
+ Energy Consumption= 0
+Buffer 3 = 2
+
+
+Machine 4 = Opr , action= K
+ Energy Consumption= 0.1705
+Buffer 4 = 2
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.017499999999999998
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.41800000000000004, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= -0.997492
+
+
+*********************Time Step 2 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 3
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 2
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 1
+
+
+Machine 4 = Brk , action= K
+ Energy Consumption= 0
+Buffer 4 = 2
+
+
+Machine 5 = Brk , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.017499999999999998
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 2.5397019896891578e-08, 6.974602980103107e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 1.2936613057015984e-07
+ Microgrid SoldBackReward= 1.3949205960206214e-07
+
+
+Average Total Cost= 0.0020789898740709682
+
+
+*********************Time Step 3 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 2
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 2
+
+
+Machine 3 = Brk , action= K
+ Energy Consumption= 0
+Buffer 3 = 2
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 2
+
+
+Machine 5 = Opr , action= H
+ Energy Consumption= 0.132
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.0175000241271689
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.032163068756090436, 0.032836931243909566, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.27033693124390956, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.032163068756090436
+ Microgrid Operational Cost= 0.016327829079146764
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.01794985066661022
+
+
+*********************Time Step 4 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 2
+
+
+Machine 2 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 2 = 2
+
+
+Machine 3 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 3 = 2
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 2
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.04869510880888299
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.229, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.000816326530612245
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.002190326530612245
+
+
+*********************Time Step 5 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 2
+
+
+Machine 2 = Off , action= K
+ Energy Consumption= 0
+Buffer 2 = 2
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 2
+
+
+Machine 4 = Opr , action= K
+ Energy Consumption= 0.1705
+Buffer 4 = 2
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.046589845650988254
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0, 0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.023779080265994536, 0.04122091973400547]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.012630747047344713
+ Microgrid SoldBackReward= 0.0008244183946801094
+
+
+Average Total Cost= -0.9863786713473354
+
+
+*********************Time Step 6 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 2
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 2
+
+
+Machine 3 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 3 = 1
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 2
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.06917997190368307
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [3.606713125507516e-06, 0.0, 3.393286874492483e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0020036067131255077
+ Microgrid Operational Cost= 0.0008164455306122451
+ Microgrid SoldBackReward= 6.786573748984965e-08
+
+
+Average Total Cost= -0.996687643975404
+
+
+*********************Time Step 7 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 2
+
+
+Machine 2 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 2 = 2
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 1
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 1
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.06707470874578833
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [4.095803079132487e-06, 0.0, 2.904196920867513e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.04846494725979572, 0.01653505274020428]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -4.095803079132487e-06
+ Microgrid Operational Cost= 0.02270673012644724
+ Microgrid SoldBackReward= 0.00033075913874250297
+
+
+Average Total Cost= -0.9761390535871137
+
+
+*********************Time Step 8 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 2
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 2
+
+
+Machine 3 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 3 = 1
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= K
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.11311640864259426
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 6.999999999999999e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 1.19e-07
+ Microgrid SoldBackReward= 1.3999999999999998e-07
+
+
+Average Total Cost= 0.0021059789999999996
+
+
+*********************Time Step 9 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 3
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 2
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 1
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 0
+
+
+Machine 5 = Brk , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.11311640864259426
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.015075316210743322, 0.04992468378925668]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.009078190290099316
+ Microgrid SoldBackReward= 0.0009984936757851336
+
+
+Average Total Cost= 0.010488696614314182
+
+
+*********************Time Step 10 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 2
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 3
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 1
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= K
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.12743795904280042
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.0, 0.2355]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.001413
+
+
+*********************Time Step 11 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 1
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 4
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 1
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= K
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.23349999999999999, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.000816326530612245
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.002217326530612245
+
+
+*********************Time Step 12 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 1
+
+
+Machine 2 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 2 = 4
+
+
+Machine 3 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 3 = 1
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= K
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 6.999999999999999e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 1.19e-07
+ Microgrid SoldBackReward= 1.3999999999999998e-07
+
+
+Average Total Cost= 0.0021059789999999996
+
+
+*********************Time Step 13 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 1
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 4
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 1
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= H
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [2.642583196824843e-06, 4.357416803175156e-06, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.11999735741680317, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -2.642583196824843e-06
+ Microgrid Operational Cost= 1.8975374706837377e-06
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.0007218816819715029
+
+
+*********************Time Step 14 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 1
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 4
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 1
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.33039887638806825
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.01029457634055465, 0.0, 0.054705423659445356]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.01229457634055465
+ Microgrid Operational Cost= 0.0037413265306122452
+ Microgrid SoldBackReward= 0.0010941084731889072
+
+
+Average Total Cost= 0.00395945059938001
+
+
+*********************Time Step 15 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 0
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 4
+
+
+Machine 3 = Brk , action= K
+ Energy Consumption= 0
+Buffer 3 = 2
+
+
+Machine 4 = Opr , action= K
+ Energy Consumption= 0.1705
+Buffer 4 = 0
+
+
+Machine 5 = Opr , action= H
+ Energy Consumption= 0.132
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.32829361323017353
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.41800000000000004, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.0025080000000000002
+
+
+*********************Time Step 16 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Sta , action= K
+ Energy Consumption= 0.105
+Buffer 2 = 4
+
+
+Machine 3 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 3 = 1
+
+
+Machine 4 = Opr , action= K
+ Energy Consumption= 0.1705
+Buffer 4 = 1
+
+
+Machine 5 = Off , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.32829361323017353
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [2.7118315743909205e-06, 4.2881684256090785e-06, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0584006647828696, 0.006599335217130401, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.0, 0.332596623385556]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.05840337661444399
+ Microgrid Operational Cost= 0.005620475483900413
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.007616055224213748
+
+
+*********************Time Step 17 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Sta , action= H
+ Energy Consumption= 0.105
+Buffer 2 = 4
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 0
+
+
+Machine 4 = Sta , action= H
+ Energy Consumption= 0.155
+Buffer 4 = 2
+
+
+Machine 5 = Off , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 6.7441030956789e-07, 6.325589690432109e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0006296653024710053, 0.064370334697529]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.003182400515420642
+ Microgrid SoldBackReward= 0.0012875332057443888
+
+
+Average Total Cost= 0.0034548673096762537
+
+
+*********************Time Step 18 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 4
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 0
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 2
+
+
+Machine 5 = Off , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.028406554412302457, 0.0, 0.036593445587697546]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.03040655441230246
+ Microgrid Operational Cost= 0.0037413265306122452
+ Microgrid SoldBackReward= 0.000731868911753951
+
+
+Average Total Cost= 0.002827018292384479
+
+
+*********************Time Step 19 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Sta , action= K
+ Energy Consumption= 0.105
+Buffer 2 = 4
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 0
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 2
+
+
+Machine 5 = Off , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0, 0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.389, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.000816326530612245
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.0031503265306122453
+
+
+*********************Time Step 20 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 0
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 3
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 1
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 2
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.3282894736842105
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.006043960277337755, 0.0, 0.058956039722662244]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.008043960277337756
+ Microgrid Operational Cost= 0.0037413265306122452
+ Microgrid SoldBackReward= 0.0011791207944532448
+
+
+Average Total Cost= 0.003899941974494974
+
+
+*********************Time Step 21 *********************
+Machine 1 = Brk , action= K
+ Energy Consumption= 0
+Buffer 1 = 1
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 2
+
+
+Machine 3 = Brk , action= K
+ Energy Consumption= 0
+Buffer 3 = 2
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 2
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.3261842105263158
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.41600000000000004, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.000816326530612245
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= -0.9966876734693878
+
+
+*********************Time Step 22 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 0
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 3
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 2
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 1
+
+
+Machine 5 = Brk , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.3240789473684211
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.0, 0.34650000000000003]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.002079
+
+
+*********************Time Step 23 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Sta , action= K
+ Energy Consumption= 0.105
+Buffer 2 = 3
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 3
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 1
+
+
+Machine 5 = Opr , action= H
+ Energy Consumption= 0.132
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 4.611935663152702e-06, 2.3880643368472962e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 2.0014227196541648e-06
+ Microgrid SoldBackReward= 4.7761286736945926e-08
+
+
+Average Total Cost= 0.0021169536614329175
+
+
+*********************Time Step 24 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 0
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 2
+
+
+Machine 3 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 3 = 4
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 1
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.065]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.002925
+ Microgrid SoldBackReward= 0.0013000000000000002
+
+
+Average Total Cost= 0.003704
+
+
+*********************Time Step 25 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 3
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 4
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 1
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.3005, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.000816326530612245
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= -0.9973806734693877
+
+
+*********************Time Step 26 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Sta , action= K
+ Energy Consumption= 0.105
+Buffer 2 = 3
+
+
+Machine 3 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 3 = 4
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= K
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.065]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.002925
+ Microgrid SoldBackReward= 0.0013000000000000002
+
+
+Average Total Cost= 0.0036680000000000003
+
+
+*********************Time Step 27 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 0
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 3
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 4
+
+
+Machine 4 = Opr , action= K
+ Energy Consumption= 0.1705
+Buffer 4 = 0
+
+
+Machine 5 = Opr , action= H
+ Energy Consumption= 0.132
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.0, 0.41800000000000004]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.0025080000000000002
+
+
+*********************Time Step 28 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Sta , action= H
+ Energy Consumption= 0.105
+Buffer 2 = 3
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 3
+
+
+Machine 4 = Opr , action= K
+ Energy Consumption= 0.1705
+Buffer 4 = 1
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0, 0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.2735, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.000816326530612245
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.0024573265306122452
+
+
+*********************Time Step 29 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Off , action= K
+ Energy Consumption= 0
+Buffer 2 = 3
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 2
+
+
+Machine 4 = Opr , action= K
+ Energy Consumption= 0.1705
+Buffer 4 = 2
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.3025, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= -0.998185
+
+
+*********************Time Step 30 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 0
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 3
+
+
+Machine 3 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 3 = 1
+
+
+Machine 4 = Opr , action= K
+ Energy Consumption= 0.1705
+Buffer 4 = 2
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.02988549256888361, 0.035114507431116396, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.0, 0.5036145074311165]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.02988549256888361
+ Microgrid Operational Cost= 0.017257452012700573
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= -0.9797208609427127
+
+
+*********************Time Step 31 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Sta , action= K
+ Energy Consumption= 0.105
+Buffer 2 = 3
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 0
+
+
+Machine 4 = Sta , action= H
+ Energy Consumption= 0.155
+Buffer 4 = 2
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [8.56273827656245e-07, 0.0, 6.143726172343754e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -8.56273827656245e-07
+ Microgrid Operational Cost= 1.19e-07
+ Microgrid SoldBackReward= 1.2287452344687508e-07
+
+
+Average Total Cost= -0.9976480090121664
+
+
+*********************Time Step 32 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 0
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 3
+
+
+Machine 3 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 3 = 0
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 1
+
+
+Machine 5 = Brk , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.065]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.0037413265306122452
+ Microgrid SoldBackReward= 0.0013000000000000002
+
+
+Average Total Cost= 0.003815326530612245
+
+
+*********************Time Step 33 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Sta , action= H
+ Energy Consumption= 0.105
+Buffer 2 = 3
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 0
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 1
+
+
+Machine 5 = Opr , action= H
+ Energy Consumption= 0.132
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.235, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.000816326530612245
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.002226326530612245
+
+
+*********************Time Step 34 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Off , action= K
+ Energy Consumption= 0
+Buffer 2 = 3
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 0
+
+
+Machine 4 = Sta , action= K
+ Energy Consumption= 0.155
+Buffer 4 = 1
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.3282894736842105
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 2.3432385301556415e-06, 4.656761469844357e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.04011341553530846, 0.02488658446469155]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.019298898091362704
+ Microgrid SoldBackReward= 0.0004978248245232279
+
+
+Average Total Cost= 0.019731073266839476
+
+
+*********************Time Step 35 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 3
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 0
+
+
+Machine 4 = Sta , action= K
+ Energy Consumption= 0.155
+Buffer 4 = 1
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0, 0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.012660065648153203, 0.0, 0.0523399343518468]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.012660065648153203
+ Microgrid Operational Cost= 0.002925
+ Microgrid SoldBackReward= 0.001046798687036936
+
+
+Average Total Cost= -0.9964757590809259
+
+
+*********************Time Step 36 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 0
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 3
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 0
+
+
+Machine 4 = Sta , action= K
+ Energy Consumption= 0.155
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= K
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.025463876420449186, 0.039536123579550816, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.48053612357955083, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.025463876420449186
+ Microgrid Operational Cost= 0.019062193297775847
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.02194541003925315
+
+
+*********************Time Step 37 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 4
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 0
+
+
+Machine 4 = Sta , action= K
+ Energy Consumption= 0.155
+Buffer 4 = 0
+
+
+Machine 5 = Brk , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.054418770343060155, 0.010581229656939849]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.025136742997167418
+ Microgrid SoldBackReward= 0.000211624593138797
+
+
+Average Total Cost= 0.025855118404028623
+
+
+*********************Time Step 38 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 0
+
+
+Machine 2 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 2 = 4
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 0
+
+
+Machine 4 = Sta , action= H
+ Energy Consumption= 0.155
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= K
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.506, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.003036
+
+
+*********************Time Step 39 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Off , action= K
+ Energy Consumption= 0
+Buffer 2 = 4
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 0
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= K
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 5.1307430081264375e-06, 1.869256991873562e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 2.213180819643444e-06
+ Microgrid SoldBackReward= 3.7385139837471244e-08
+
+
+Average Total Cost= 0.0007221757956798059
+
+
+*********************Time Step 40 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 4
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 0
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= H
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0, 0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.0, 0.12]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.0007199999999999999
+
+
+*********************Time Step 41 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 0
+
+
+Machine 2 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 2 = 4
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 0
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 0
+
+
+Machine 5 = Off , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [7.862215871132595e-07, 0.0, 6.21377841288674e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.027528851838391728, 0.03747114816160828, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.02752963805997884
+ Microgrid Operational Cost= 0.018219465188411544
+ Microgrid SoldBackReward= 1.242755682577348e-07
+
+
+Average Total Cost= 0.021156163084483415
+
+
+*********************Time Step 42 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 3
+
+
+Machine 3 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 3 = 1
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 4.3833007698503005e-06, 2.616699230149698e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.03250182369816349, 0.03249817630183651, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.03250182369816349
+ Microgrid Operational Cost= 0.01619146985820668
+ Microgrid SoldBackReward= 5.233398460299396e-08
+
+
+Average Total Cost= 0.016689406582033096
+
+
+*********************Time Step 43 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 0
+
+
+Machine 2 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 2 = 3
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 1
+
+
+Machine 4 = Opr , action= K
+ Energy Consumption= 0.1705
+Buffer 4 = 0
+
+
+Machine 5 = Opr , action= H
+ Energy Consumption= 0.132
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.03787918452248963, 0.027120815477510374, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.0, 0.49562081547751047]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.03787918452248963
+ Microgrid Operational Cost= 0.01399472060306546
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.016968445495930524
+
+
+*********************Time Step 44 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 1
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 3
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 0
+
+
+Machine 4 = Sta , action= H
+ Energy Consumption= 0.155
+Buffer 4 = 1
+
+
+Machine 5 = Off , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.2705, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.001623
+
+
+*********************Time Step 45 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 2
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 3
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 0
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 1
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 2.015270262840547e-06, 4.984729737159452e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.065]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.002925941559290955
+ Microgrid SoldBackReward= 0.0013000996945947434
+
+
+Average Total Cost= 0.0030118418646962117
+
+
+*********************Time Step 46 *********************
+Machine 1 = Brk , action= K
+ Energy Consumption= 0
+Buffer 1 = 2
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 4
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 0
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 1
+
+
+Machine 5 = Opr , action= H
+ Energy Consumption= 0.132
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0, 0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.361, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.000816326530612245
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.002982326530612245
+
+
+*********************Time Step 47 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 1
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 4
+
+
+Machine 3 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 3 = 1
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 1
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [1.32900222371319e-06, 0.0, 5.6709977762868096e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.024900270540640555, 0.04009972945935945, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.024901599542864267
+ Microgrid Operational Cost= 0.019292355514024268
+ Microgrid SoldBackReward= 1.134199555257362e-07
+
+
+Average Total Cost= 0.020528832496811558
+
+
+*********************Time Step 48 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 1
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 4
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 1
+
+
+Machine 4 = Opr , action= K
+ Energy Consumption= 0.1705
+Buffer 4 = 1
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 6.999999999999999e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.023640710983590194, 0.04135928901640981]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.012574388789220488
+ Microgrid SoldBackReward= 0.0008273257803281962
+
+
+Average Total Cost= -0.9857449369911077
+
+
+*********************Time Step 49 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 5
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 0
+
+
+Machine 4 = Sta , action= K
+ Energy Consumption= 0.155
+Buffer 4 = 1
+
+
+Machine 5 = Brk , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0, 0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.065]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.0037413265306122452
+ Microgrid SoldBackReward= 0.0013000000000000002
+
+
+Average Total Cost= 0.0033593265306122453
+
+
+*********************Time Step 50 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 0
+
+
+Machine 2 = Sta , action= K
+ Energy Consumption= 0.105
+Buffer 2 = 5
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 0
+
+
+Machine 4 = Sta , action= K
+ Energy Consumption= 0.155
+Buffer 4 = 1
+
+
+Machine 5 = Opr , action= H
+ Energy Consumption= 0.132
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.01646767978683642, 0.04853232021316358]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.009646501953810786
+ Microgrid SoldBackReward= 0.0009706464042632717
+
+
+Average Total Cost= 0.011027855549547515
+
+
+*********************Time Step 51 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 0
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 5
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 0
+
+
+Machine 4 = Opr , action= K
+ Energy Consumption= 0.1705
+Buffer 4 = 1
+
+
+Machine 5 = Off , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 6.999999999999999e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 1.19e-07
+ Microgrid SoldBackReward= 1.3999999999999998e-07
+
+
+Average Total Cost= 0.002408979
+
+
+*********************Time Step 52 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 1
+
+
+Machine 2 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 2 = 4
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 0
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 2
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 6.999999999999999e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.0008164455306122451
+ Microgrid SoldBackReward= 1.3999999999999998e-07
+
+
+Average Total Cost= 0.003906305530612246
+
+
+*********************Time Step 53 *********************
+Machine 1 = Brk , action= K
+ Energy Consumption= 0
+Buffer 1 = 2
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 3
+
+
+Machine 3 = Brk , action= K
+ Energy Consumption= 0
+Buffer 3 = 1
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 2
+
+
+Machine 5 = Opr , action= H
+ Energy Consumption= 0.132
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 6.999999999999999e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 1.19e-07
+ Microgrid SoldBackReward= 1.3999999999999998e-07
+
+
+Average Total Cost= 0.0007919790000000001
+
+
+*********************Time Step 54 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 2
+
+
+Machine 2 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 2 = 3
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 1
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 2
+
+
+Machine 5 = Off , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.34650000000000003, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.002079
+
+
+*********************Time Step 55 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 2
+
+
+Machine 2 = Off , action= K
+ Energy Consumption= 0
+Buffer 2 = 2
+
+
+Machine 3 = Brk , action= K
+ Energy Consumption= 0
+Buffer 3 = 2
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 2
+
+
+Machine 5 = Off , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 7.528103586489615e-07, 6.247189641351038e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 4.262695341424333e-07
+ Microgrid SoldBackReward= 1.2494379282702076e-07
+
+
+Average Total Cost= 0.0010233013257413153
+
+
+*********************Time Step 56 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 2
+
+
+Machine 2 = Off , action= K
+ Energy Consumption= 0
+Buffer 2 = 2
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 2
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 2
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.330395452011946
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [1.3270929530301253e-06, 0.0, 5.672907046969874e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.065]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.00200132709295303
+ Microgrid Operational Cost= 0.003741445530612245
+ Microgrid SoldBackReward= 0.0013001134581409393
+
+
+Average Total Cost= 0.003815324109913588
+
+
+*********************Time Step 57 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 2
+
+
+Machine 2 = Off , action= K
+ Energy Consumption= 0
+Buffer 2 = 1
+
+
+Machine 3 = Brk , action= K
+ Energy Consumption= 0
+Buffer 3 = 3
+
+
+Machine 4 = Opr , action= K
+ Energy Consumption= 0.1705
+Buffer 4 = 2
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.32829018885405126
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.0, 0.3025]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= -0.998185
+
+
+*********************Time Step 58 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 2
+
+
+Machine 2 = Off , action= K
+ Energy Consumption= 0
+Buffer 2 = 1
+
+
+Machine 3 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 3 = 2
+
+
+Machine 4 = Brk , action= K
+ Energy Consumption= 0
+Buffer 4 = 2
+
+
+Machine 5 = Opr , action= H
+ Energy Consumption= 0.132
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.2455, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.000816326530612245
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.002289326530612245
+
+
+*********************Time Step 59 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 2
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 1
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 2
+
+
+Machine 4 = Opr , action= K
+ Energy Consumption= 0.1705
+Buffer 4 = 2
+
+
+Machine 5 = Off , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.28400000000000003, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.000816326530612245
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.0025203265306122454
+
+
+*********************Time Step 60 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 3
+
+
+Machine 2 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 2 = 1
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 1
+
+
+Machine 4 = Opr , action= K
+ Energy Consumption= 0.1705
+Buffer 4 = 3
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.3282894736842105
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [6.37640935575153e-06, 0.0, 6.235906442484697e-07]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0020063764093557514
+ Microgrid Operational Cost= 0.0008164455306122451
+ Microgrid SoldBackReward= 1.2471812884969394e-08
+
+
+Average Total Cost= 0.0032133948003432258
+
+
+*********************Time Step 61 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 4
+
+
+Machine 2 = Off , action= K
+ Energy Consumption= 0
+Buffer 2 = 1
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 0
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 4
+
+
+Machine 5 = Opr , action= H
+ Energy Consumption= 0.132
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.3261842105263158
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [3.4015907068510583e-07, 2.8255049060436257e-06, 3.834336023271267e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.018122300759528493, 0.0, 0.046877699240471506]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.018122640918599178
+ Microgrid Operational Cost= 0.002926272267308589
+ Microgrid SoldBackReward= 0.0009376306715298956
+
+
+Average Total Cost= 0.005080905750267099
+
+
+*********************Time Step 62 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 5
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 0
+
+
+Machine 3 = Sta , action= K
+ Energy Consumption= 0.105
+Buffer 3 = 1
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 4
+
+
+Machine 5 = Off , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.32618689475597656
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.006901600898298243, 0.0, 0.05809839910170176]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.006901600898298243
+ Microgrid Operational Cost= 0.002925
+ Microgrid SoldBackReward= 0.0011619679820340353
+
+
+Average Total Cost= 0.003044622412576175
+
+
+*********************Time Step 63 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 6
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 0
+
+
+Machine 3 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 3 = 1
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 4
+
+
+Machine 5 = Off , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.32618689475597656
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.34450000000000003, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.000816326530612245
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.0028833265306122454
+
+
+*********************Time Step 64 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 6
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 1
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 1
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 4
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.32408163159808184
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 6.999999999999999e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.065]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.002925119
+ Microgrid SoldBackReward= 0.00130014
+
+
+Average Total Cost= 0.002317979
+
+
+*********************Time Step 65 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 7
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 1
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 1
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 4
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.32408163159808184
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 1.983891757192987e-06, 5.016108242807012e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.065]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0029259287517376296
+ Microgrid SoldBackReward= 0.001300100322164856
+
+
+Average Total Cost= -0.9961961715704273
+
+
+*********************Time Step 66 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 6
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 2
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 1
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 3
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.3240835162952512
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0, 0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.13, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.000816326530612245
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= -0.9984036734693877
+
+
+*********************Time Step 67 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 6
+
+
+Machine 2 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 2 = 2
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 1
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 2
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.32197825313735645
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 4.5119211099248273e-07, 6.548807889007517e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.008791869541514563, 0.05620813045848544]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0065138213402553295
+ Microgrid SoldBackReward= 0.001124293585327489
+
+
+Average Total Cost= -0.9914094722450721
+
+
+*********************Time Step 68 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 6
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 1
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 2
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 1
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.3303309578343007
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.03403428877160319, 0.0, 0.030965711228396815]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.03403428877160319
+ Microgrid Operational Cost= 0.002925
+ Microgrid SoldBackReward= 0.0006193142245679363
+
+
+Average Total Cost= -0.9957205199571976
+
+
+*********************Time Step 69 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 6
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 0
+
+
+Machine 3 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 3 = 3
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 0
+
+
+Machine 5 = Opr , action= H
+ Energy Consumption= 0.132
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.3303309578343007
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.0, 0.5335000000000001]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.0032010000000000007
+
+
+*********************Time Step 70 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 5
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 1
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 3
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0, 0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.03364057919556922, 0.031359420804430785, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.08185942080443079, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.03364057919556922
+ Microgrid Operational Cost= 0.015724763593645222
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.016215920118471807
+
+
+*********************Time Step 71 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 6
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 1
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 3
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= K
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 6.067900082830519e-06, 9.3209991716948e-07]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.017347314565014194, 0.04765268543498581]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.01000813225106001
+ Microgrid SoldBackReward= 0.0009530723506980596
+
+
+Average Total Cost= 0.011161059900361951
+
+
+*********************Time Step 72 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 5
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 2
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 3
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 0
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [6.575363835617977e-06, 0.0, 4.246361643820215e-07]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.065]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002006575363835618
+ Microgrid Operational Cost= 0.003741445530612245
+ Microgrid SoldBackReward= 0.0013000084927232878
+
+
+Average Total Cost= -0.9957556024142941
+
+
+*********************Time Step 73 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 5
+
+
+Machine 2 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 2 = 2
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 3
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= K
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0, 0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.0, 0.2355]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.001413
+
+
+*********************Time Step 74 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 5
+
+
+Machine 2 = Off , action= K
+ Energy Consumption= 0
+Buffer 2 = 2
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 3
+
+
+Machine 4 = Opr , action= K
+ Energy Consumption= 0.1705
+Buffer 4 = 0
+
+
+Machine 5 = Opr , action= K
+ Energy Consumption= 0.132
+ 
+ throughput= 1
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 1.4303356856984719e-06, 5.569664314301527e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 7.028104839585602e-07
+ Microgrid SoldBackReward= 1.1139328628603053e-07
+
+
+Average Total Cost= -0.9981844085828023
+
+
+*********************Time Step 75 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 5
+
+
+Machine 2 = Off , action= K
+ Energy Consumption= 0
+Buffer 2 = 2
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 2
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 0
+
+
+Machine 5 = Opr , action= H
+ Energy Consumption= 0.132
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [6.274404787141701e-06, 7.255952128582977e-07, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.30249372559521287, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -6.274404787141701e-06
+ Microgrid Operational Cost= 4.1516131137073384e-07
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.001815377514882648
+
+
+*********************Time Step 76 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 5
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 2
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 2
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 6.999999999999999e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.03310528967720764, 0.0, 0.03189471032279236]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.03510528967720764
+ Microgrid Operational Cost= 0.003741445530612245
+ Microgrid SoldBackReward= 0.0006380342064558472
+
+
+Average Total Cost= 0.002892779586093152
+
+
+*********************Time Step 77 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 5
+
+
+Machine 2 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 2 = 2
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 2
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 0
+
+
+Machine 5 = Opr , action= H
+ Energy Consumption= 0.132
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.065]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.002925
+ Microgrid SoldBackReward= 0.0013000000000000002
+
+
+Average Total Cost= 0.004826000000000001
+
+
+*********************Time Step 78 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 6
+
+
+Machine 2 = Off , action= K
+ Energy Consumption= 0
+Buffer 2 = 2
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 2
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 6.945839700873881e-06, 5.41602991261183e-08]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.022975772062110406, 0.0420242279378896]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.01230582018441277
+ Microgrid SoldBackReward= 0.0008404856419637745
+
+
+Average Total Cost= 0.012158334542448997
+
+
+*********************Time Step 79 *********************
+Machine 1 = Brk , action= K
+ Energy Consumption= 0
+Buffer 1 = 7
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 2
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 2
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= K
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0, 0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.23349999999999999, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.000816326530612245
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.002217326530612245
+
+
+*********************Time Step 80 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 7
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 1
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 3
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Brk , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.0, 0.34650000000000003]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.002079
+
+
+*********************Time Step 81 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 6
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 1
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 4
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= K
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.001017636512373814, 0.06398236348762619]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0033403618417852305
+ Microgrid SoldBackReward= 0.0012796472697525238
+
+
+Average Total Cost= 0.0034737145720327065
+
+
+*********************Time Step 82 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 6
+
+
+Machine 2 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 2 = 0
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 5
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 0
+
+
+Machine 5 = Brk , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0, 0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.004788706716469933, 0.06021129328353007]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.004879574169987728
+ Microgrid SoldBackReward= 0.0012042258656706013
+
+
+Average Total Cost= 0.006084348304317127
+
+
+*********************Time Step 83 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 6
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 0
+
+
+Machine 3 = Sta , action= H
+ Energy Consumption= 0.105
+Buffer 3 = 6
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= K
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.0, 0.22499999999999998]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.0013499999999999999
+
+
+*********************Time Step 84 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 6
+
+
+Machine 2 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 2 = 0
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 6
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 0
+
+
+Machine 5 = Brk , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.065]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.0037413265306122452
+ Microgrid SoldBackReward= 0.0013000000000000002
+
+
+Average Total Cost= 0.0041453265306122455
+
+
+*********************Time Step 85 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 6
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 0
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 6
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Brk , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [5.536656643088098e-06, 0.0, 1.4633433569119017e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.065]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -5.536656643088098e-06
+ Microgrid Operational Cost= 0.002925119
+ Microgrid SoldBackReward= 0.0013000292668671383
+
+
+Average Total Cost= 0.0016250565131930032
+
+
+*********************Time Step 86 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 6
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 0
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 6
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= H
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0, 0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.351, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.002106
+
+
+*********************Time Step 87 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 5
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 1
+
+
+Machine 3 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 3 = 6
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [8.529532094282217e-07, 0.0, 6.147046790571777e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002000852953209428
+ Microgrid Operational Cost= 0.0008164455306122451
+ Microgrid SoldBackReward= 1.2294093581143556e-07
+
+
+Average Total Cost= 0.001497317471957177
+
+
+*********************Time Step 88 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 5
+
+
+Machine 2 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 2 = 1
+
+
+Machine 3 = Off , action= K
+ Energy Consumption= 0
+Buffer 3 = 6
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 0
+
+
+Machine 5 = Opr , action= H
+ Energy Consumption= 0.132
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.3282894736842105
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 6.999999999999999e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.065]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.003741445530612245
+ Microgrid SoldBackReward= 0.00130014
+
+
+Average Total Cost= 0.0056303055306122455
+
+
+*********************Time Step 89 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 6
+
+
+Machine 2 = Off , action= K
+ Energy Consumption= 0
+Buffer 2 = 1
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 6
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.3261842105263158
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.1135, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.000816326530612245
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.0014973265306122451
+
+
+*********************Time Step 90 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 7
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 1
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 6
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= H
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.3240789473684211
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [5.629448471528717e-06, 0.0, 1.3705515284712817e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.065]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0020056294484715287
+ Microgrid Operational Cost= 0.003741445530612245
+ Microgrid SoldBackReward= 0.0013000274110305696
+
+
+Average Total Cost= 0.004535384342890846
+
+
+*********************Time Step 91 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 7
+
+
+Machine 2 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 2 = 0
+
+
+Machine 3 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 3 = 7
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 0
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.32197368421052636
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 6.999999999999999e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.065]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.002
+ Microgrid Operational Cost= 0.003741445530612245
+ Microgrid SoldBackReward= 0.00130014
+
+
+Average Total Cost= 0.004838305530612245
+
+
+*********************Time Step 92 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 7
+
+
+Machine 2 = Off , action= K
+ Energy Consumption= 0
+Buffer 2 = 0
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 7
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= H
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.31986842105263164
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.12, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.0007199999999999999
+
+
+*********************Time Step 93 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 7
+
+
+Machine 2 = Off , action= K
+ Energy Consumption= 0
+Buffer 2 = 0
+
+
+Machine 3 = Sta , action= H
+ Energy Consumption= 0.105
+Buffer 3 = 7
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 0
+
+
+Machine 5 = Off , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.31986842105263164
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [3.5021521819121293e-06, 3.4978478180878697e-06, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.065]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -3.5021521819121293e-06
+ Microgrid Operational Cost= 0.0029265466929869746
+ Microgrid SoldBackReward= 0.0013000000000000002
+
+
+Average Total Cost= 0.003972525680073883
+
+
+*********************Time Step 94 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 7
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 0
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 7
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Off , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.31987174400805884
+ microgrid actions [solar PV, wind turbine, generator]= [0, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 6.999999999999999e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0, 0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 1.19e-07
+ Microgrid SoldBackReward= 1.3999999999999998e-07
+
+
+Average Total Cost= -2.099999999999999e-08
+
+
+*********************Time Step 95 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 7
+
+
+Machine 2 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 2 = 0
+
+
+Machine 3 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 3 = 7
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 0
+
+
+Machine 5 = Off , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 0] , SOC= 0.31987174400805884
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0.0, 0.4015]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 0.0
+ Microgrid SoldBackReward= 0.0
+
+
+Average Total Cost= 0.002409
+
+
+*********************Time Step 96 *********************
+Machine 1 = Off , action= K
+ Energy Consumption= 0
+Buffer 1 = 6
+
+
+Machine 2 = Brk , action= K
+ Energy Consumption= 0
+Buffer 2 = 1
+
+
+Machine 3 = Off , action= W
+ Energy Consumption= 0
+Buffer 3 = 7
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Off , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 1.2167655043561422e-06, 5.783234495643857e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 6.156389813698541e-07
+ Microgrid SoldBackReward= 1.1566468991287714e-07
+
+
+Average Total Cost= 4.999742914569769e-07
+
+
+*********************Time Step 97 *********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 6
+
+
+Machine 2 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 2 = 1
+
+
+Machine 3 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 3 = 7
+
+
+Machine 4 = Opr , action= H
+ Energy Consumption= 0.1705
+Buffer 4 = 0
+
+
+Machine 5 = Off , action= W
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 0] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [1, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 2.184779401016606e-06, 4.815220598983393e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.0
+ Microgrid Operational Cost= 1.0107466942924924e-06
+ Microgrid SoldBackReward= 9.630441197966786e-08
+
+
+Average Total Cost= 0.0024099144422823127
+
+
+*********************Time Step 98 *********************
+Machine 1 = Opr , action= K
+ Energy Consumption= 0.1155
+Buffer 1 = 6
+
+
+Machine 2 = Off , action= K
+ Energy Consumption= 0
+Buffer 2 = 0
+
+
+Machine 3 = Sta , action= K
+ Energy Consumption= 0.105
+Buffer 3 = 8
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= K
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.33249999999999996
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0.0, 6.999999999999999e-06]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.05853581571656018, 0.0, 0.006464184283439825]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0.002
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.06053581571656018
+ Microgrid Operational Cost= 0.003741445530612245
+ Microgrid SoldBackReward= 0.0001294236856687965
+
+
+Average Total Cost= 0.005291806950644088
+
+
+*********************Time Step 99 *********************
+Machine 1 = Opr , action= H
+ Energy Consumption= 0.1155
+Buffer 1 = 7
+
+
+Machine 2 = Off , action= K
+ Energy Consumption= 0
+Buffer 2 = 0
+
+
+Machine 3 = Sta , action= K
+ Energy Consumption= 0.105
+Buffer 3 = 8
+
+
+Machine 4 = Off , action= K
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Sta , action= H
+ Energy Consumption= 0.12
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [1, 0, 1] , SOC= 0.33039473684210524
+ microgrid actions [solar PV, wind turbine, generator]= [0, 0, 1]
+ solar energy supporting [manufaturing, charging battery, sold back]= [5.504212531146049e-06, 1.49578746885395e-06, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.065]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -5.504212531146049e-06
+ Microgrid Operational Cost= 0.002925729525497491
+ Microgrid SoldBackReward= 0.0013000000000000002
+
+
+Average Total Cost= 0.0036686965002223045
+
+
+Target Output =  19
+
+*********************** Test the Machine and Microgrid Action Generation ***********************
+Machine 1 = Off , action= W
+ Energy Consumption= 0
+Buffer 1 = 7
+
+
+Machine 2 = Off , action= W
+ Energy Consumption= 0
+Buffer 2 = 0
+
+
+Machine 3 = Brk , action= K
+ Energy Consumption= 0
+Buffer 3 = 8
+
+
+Machine 4 = Off , action= W
+ Energy Consumption= 0
+Buffer 4 = 0
+
+
+Machine 5 = Off , action= K
+ Energy Consumption= 0
+ 
+ throughput= 0
+
+
+Microgrid working status [solar PV, wind turbine, generator]= [0, 0, 1] , SOC= 0.33039615784020065
+ microgrid actions [solar PV, wind turbine, generator]= [1, 1, 0]
+ solar energy supporting [manufaturing, charging battery, sold back]= [0.0, 0, 0.0]
+ wind energy supporting [manufacturing, charging battery, sold back]= [0.0, 0.0, 0.0]
+ generator energy supporting [manufacturing, charging battery, sold back]= [0.030869434522177587, 0.0024594922192158765, 0.03167107325860654]
+ energy purchased from grid supporting [manufacturing, charging battery]= [0, 0]
+ energy discharged by the battery supporting manufacturing= 0
+ solar irradiance= 25
+ wind speed= 41.4
+ Microgrid Energy Consumption= -0.030869434522177587
+ Microgrid Operational Cost= 0.003928874375190154
+ Microgrid SoldBackReward= 0.0006334214651721309
+
+
+Average Total Cost= 0.0031102363028849577
+
+
+admissible machine action 1 = ['K', 'K', 'K', 'K', 'K']
+admissible machine action 2 = ['K', 'K', 'K', 'K', 'W']
+admissible machine action 3 = ['K', 'K', 'K', 'W', 'K']
+admissible machine action 4 = ['K', 'K', 'K', 'W', 'W']
+admissible machine action 5 = ['K', 'W', 'K', 'K', 'K']
+admissible machine action 6 = ['K', 'W', 'K', 'K', 'W']
+admissible machine action 7 = ['K', 'W', 'K', 'W', 'K']
+admissible machine action 8 = ['K', 'W', 'K', 'W', 'W']
+admissible machine action 9 = ['W', 'K', 'K', 'K', 'K']
+admissible machine action 10 = ['W', 'K', 'K', 'K', 'W']
+admissible machine action 11 = ['W', 'K', 'K', 'W', 'K']
+admissible machine action 12 = ['W', 'K', 'K', 'W', 'W']
+admissible machine action 13 = ['W', 'W', 'K', 'K', 'K']
+admissible machine action 14 = ['W', 'W', 'K', 'K', 'W']
+admissible machine action 15 = ['W', 'W', 'K', 'W', 'K']
+admissible machine action 16 = ['W', 'W', 'K', 'W', 'W']
+
+
+admissible microgrid action 1  for adjusting status= [0, 0, 0]
+admissible microgrid action 2  for adjusting status= [0, 0, 1]
+admissible microgrid action 3  for adjusting status= [0, 1, 0]
+admissible microgrid action 4  for adjusting status= [0, 1, 1]
+admissible microgrid action 5  for adjusting status= [1, 0, 0]
+admissible microgrid action 6  for adjusting status= [1, 0, 1]
+admissible microgrid action 7  for adjusting status= [1, 1, 0]
+admissible microgrid action 8  for adjusting status= [1, 1, 1]
+
+
+admissible microgrid action 1  for purchase= [0, 0] , admissible microgrid action 1  for discharge= 0
+admissible microgrid action 2  for purchase= [0, 0] , admissible microgrid action 2  for discharge= 0
+admissible microgrid action 3  for purchase= [0, 0] , admissible microgrid action 3  for discharge= 0.002

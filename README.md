@@ -3,7 +3,7 @@
 The purpose of the repository is to improve the existing structure of the project with the intention of enhancing its maintainability, reusability, collaboration, documentation, and testing capabilities.
 
 ### RL-manufacturing
-#### 02/26 Rewrite the structure of a Python project  
+#### 02/26 Rewrite the structure
 - add `setup.py` `Makefile` to the root directory
 - create some folders for different types files
 

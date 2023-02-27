@@ -1,5 +1,7 @@
 ## Standard-py-proj
 
+The purpose of the repository is to improve the existing structure of the project with the intention of enhancing its maintainability, reusability, collaboration, documentation, and testing capabilities.
+
 ### RL-manufacturing
 #### 02/26 Rewrite the structure of a Python project  
 - add `setup.py` `Makefile` to the root directory
